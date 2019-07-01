@@ -4,7 +4,7 @@
  *
  * <%- description %>
  * @author
-     <% (author instanceof Array ? author : [author]).forEach(function (item) { %>
+     <% (contributors instanceof Array ? contributors : [contributors]).forEach(function (item) { %>
  *   <%- item.name %> (<%- item.url %>)
      <% }); %>
  * @version <%- version %>
